@@ -88,8 +88,10 @@
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Loading_Form";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Perolax Launcher";
             Load += Loading_Form_Load;
+            Shown += Loading_Form_Shown;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ResumeLayout(false);

@@ -17,7 +17,7 @@ namespace Perolax_Launcher
 
         #region Perolax_Launcher
         //Readonly Launcher Version (Gets changed manually)
-        public static readonly string launcher_BuildVersion = "0B-D03M08Y23-PL";
+        public static readonly string launcher_BuildVersion = "1B-D03M08Y23-PL";
         #endregion
     }
 }
